@@ -3,10 +3,10 @@
 
 1. 是一个不断运行的进程。它会不断的从 任务队列 中取出任务，交给 调用栈 执行，直到任务队列为空。
 2. 由2个关键组成部分：
-	* [调用栈 （Call Stack）](/broswer/eventLoop/callStack/)
+	* [调用栈 （Call Stack）](/browser/eventLoop/callStack/)
 		* 执行主代码（script块、同步任务）
 		* js引擎推送 任务队列 任务至 调用栈 进行执行
-	* [任务队列（Task Queue）](/broswer/eventLoop/taskQueue/)
+	* [任务队列（Task Queue）](/browser/eventLoop/taskQueue/)
 		*	主要存储 异步任务
 			* 微任务
 			* 宏任务
